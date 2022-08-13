@@ -1,0 +1,42 @@
+h1{
+    animation: homeAnimation 1s ease-in-out forwards;
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: center;
+}
+
+.subtitle{
+    animation: homeAnimation 1s ease-in-out forwards;
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: center;
+    animation-delay: .5s;
+}
+
+.social-links, #navbar{
+    animation: homeAnimation2 1s linear forwards;
+    opacity: 0;
+    animation-delay: 1.5s;
+}
+
+
+
+@keyframes homeAnimation{
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes homeAnimation2{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
