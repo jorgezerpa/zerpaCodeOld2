@@ -1,0 +1,81 @@
+.about-loader-container{
+	/* overflow: hidden; */
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.about-loader{
+	width: 50%;
+	height: 100%;
+	position: relative;
+	display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
+
+.about-loader span{
+    /*		if you want to give fixed values (for any reason) delete the width
+    and height properties of the parent element*/
+	width: 140px;
+	height: 100%;
+	margin: 0 20px;
+	animation: animate 1.4s linear infinite;
+    flex-shrink: 0;
+}
+@keyframes animate{
+	0%
+	{
+		box-shadow: 0 0 0 rgba(255,255,255,.5);
+		opacity: 0;
+		transform: translate(-50px) scale(1);
+        border-radius: 0;
+	}
+	50%{
+        box-shadow: 0 0px 50px rgba(255,255,255,.5);
+		opacity: 1;
+		transform: translate(0px) scale(1.2);
+        border-radius: 50%;
+	}
+	100%
+	{
+        box-shadow: 0 0 0 rgba(255,255,255,.5);
+		opacity: 0;
+		transform: translate(50px) scale(1);
+        border-radius: 0;
+	}
+}
+
+.about-loader span:nth-of-type(1){
+	animation-delay: 0
+}
+
+
+.about-loader span:nth-of-type(2){
+	animation-delay: 0.2s;
+}
+
+.about-loader span:nth-of-type(3){
+	animation-delay: 0.4s;
+}
+
+.about-loader span:nth-of-type(4){
+	animation-delay: 0.6s;
+}
+
+.about-loader span:nth-of-type(5){
+	animation-delay: 0.8s;
+}
+
+.about-loader span:nth-of-type(6){
+	animation-delay: 1s;
+}
+
+.about-loader span:nth-of-type(7){
+	animation-delay: 1.2s;
+}

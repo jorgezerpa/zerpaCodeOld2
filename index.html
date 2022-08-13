@@ -28,6 +28,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/animations.css" rel="stylesheet">
   <link href="assets/css/eye.css" rel="stylesheet">
+  <link href="assets/css/aboutLoader.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Personal - v4.8.1
@@ -74,8 +75,10 @@
         </div>
       </div>
 
-      <div class="eye-container">
-        <div class="eye"><div class="iris anim"></div></div>
+      <div class="bubble-container">
+        <div class="stage">
+          <div class="ball bubble"></div>
+        </div>
       </div>
 
     </header><!-- End Header -->
@@ -103,18 +106,46 @@
               area, although I can develop complete applications that range from E-commerce to incredible personal 
               portfolios. Whatever you need! ask for it and I build it.
             </p>
-            <p>
+            <!-- <p>
               Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
               Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-            </p>
+            </p> -->
           </div>
         </div>
   
       </div><!-- End About Me -->
   
       <!-- ======= Counts ======= -->
-      <div class="counts container">
-            <p>cool canvas animation</p>
+      <div class="counts">
+        <div class="about-loader-container">
+          <div class="about-loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="about-loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="about-loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div class="about-loader-container">
       
       </div><!-- End Counts -->
   
@@ -282,10 +313,9 @@
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app" class="filter-active">Apps</li>
+              <li data-filter=".filter-card">Landing Pages</li>
+              <li data-filter=".filter-web">Art & design</li>
             </ul>
           </div>
         </div>

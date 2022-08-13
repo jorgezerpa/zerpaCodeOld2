@@ -11,8 +11,10 @@
   let modalOpen = false;
   const header = document.getElementById('header');
   header.style.marginTop = window.innerWidth < 992 ? ( modalOpen ? '0' : '50px') : '0';
+  // canvas.style.display = modalOpen ? 'none' : 'block';
   window.addEventListener('resize', ()=>{
     header.style.marginTop = window.innerWidth < 992 ? ( modalOpen ? '0' : '50px') : '0';
+    // canvas.style.display = modalOpen ? 'none' : 'block';
   })
 
 
@@ -74,12 +76,14 @@
       let header = select('#header')
       let sections = select('section', true)
       let navlinks = select('#navbar .nav-link', true)
-      let eye = select('.eye-container');
+      let bubble = select('.bubble-container');
+      let homeCanvas = select('.home-canvas')
       
         //values if this.hash !== '#header'
       header.style.marginTop = '0'; //set header margintop to 0 by default, set to 100px if this.hash === "#home" (a few lines down)
       modalOpen = true;
-      eye.style.display = 'none';
+      bubble.style.display = 'none';
+      homeCanvas.style.display = 'none';
 
       navlinks.forEach((item) => {
         item.classList.remove('active')
@@ -98,7 +102,8 @@
         modalOpen = false;
         header.classList.remove('header-top')
         header.style.marginTop = window.innerWidth < 992 ? '50px' : '0';
-        eye.style.display = 'block';
+        bubble.style.display = 'block';
+        homeCanvas.style.display = 'block';
         sections.forEach((item) => {
           item.classList.remove('section-show')
         })
@@ -215,6 +220,7 @@
       let portfolioFilters = select('#portfolio-flters li', true);
 
       on('click', '#portfolio-flters li', function(e) {
+        console.log(this)
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
           el.classList.remove('filter-active');
