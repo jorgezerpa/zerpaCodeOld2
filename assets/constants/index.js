@@ -28,14 +28,14 @@ class AppProject{
 }
 
 const appProjects = [
-    new AppProject({ name: 'Deliverify', description:'some short description', stack: 'React | node', image:'lp6.png', githubLink: 'https://github.com/jorgezerpa/delivery-app-be', projectLink: 'https://delivery-1hdsoy5r8-jorgezerpa.vercel.app'  }), 
-    new AppProject({ name: 'Exercise App', description:'some short description', stack: 'React', image:'lp6.png', githubLink: 'https://github.com/jorgezerpa/exercise-app', projectLink: 'https://exercise-app-six.vercel.app/'  }), 
-    new AppProject({ name: 'Timer App', description:'some short description', stack: 'React Native', image:'lp6.png', githubLink: 'https://github.com/jorgezerpa/timer-app-react-native'  }), 
-    new AppProject({ name: 'Figma plugin', description:'some short description', stack: 'Figma Framework', image:'lp6.png', githubLink: 'https://github.com/jorgezerpa/schnnel-hero-figma-plugin', projectLink: 'https://www.figma.com/community/plugin/1127303485921047861/Schnell-wireframe'  }), 
-    new AppProject({ name: 'Pokedex', description:'some short description', stack: 'React Native', image:'lp6.png', githubLink: 'https://github.com/jorgezerpa/pokeapi-react-native'  }), 
-    new AppProject({ name: 'eCommerce API', description:'some short description', stack: 'Node', image:'lp6.png', githubLink: 'https://github.com/jorgezerpa/e-commerce-api'  }), 
-    new AppProject({ name: 'Fight game', description:'some short description', stack: 'Vanilla JS', image:'lp6.png', githubLink: 'https://github.com/jorgezerpa/street-fighter-clone', projectLink: 'https://jorgezerpa.github.io/street-fighter-clone/'  }), 
-    new AppProject({ name: 'Shot game', description:'some short description', stack: 'Vanilla JS', image:'lp6.png', githubLink: 'https://github.com/jorgezerpa/basic-shoting-game', projectLink: 'https://jorgezerpa.github.io/basic-shoting-game/'  }), 
+    new AppProject({ name: 'Deliverify', description:'some short description', stack: 'React | node', image:'deliverify.png', githubLink: 'https://github.com/jorgezerpa/delivery-app-be', projectLink: 'https://delivery-1hdsoy5r8-jorgezerpa.vercel.app'  }), 
+    new AppProject({ name: 'Exercise App', description:'some short description', stack: 'React', image:'exercise.png', githubLink: 'https://github.com/jorgezerpa/exercise-app', projectLink: 'https://exercise-app-six.vercel.app/'  }), 
+    new AppProject({ name: 'Timer App', description:'some short description', stack: 'React Native', image:'timer.png', githubLink: 'https://github.com/jorgezerpa/timer-app-react-native'  }), 
+    new AppProject({ name: 'Figma plugin', description:'some short description', stack: 'Figma Framework', image:'schennel.png', githubLink: 'https://github.com/jorgezerpa/schnnel-hero-figma-plugin', projectLink: 'https://www.figma.com/community/plugin/1127303485921047861/Schnell-wireframe'  }), 
+    new AppProject({ name: 'Pokedex', description:'some short description', stack: 'React Native', image:'pokedex.png', githubLink: 'https://github.com/jorgezerpa/pokeapi-react-native'  }), 
+    new AppProject({ name: 'eCommerce API', description:'some short description', stack: 'Node', image:'ecommerce.png', githubLink: 'https://github.com/jorgezerpa/e-commerce-api'  }), 
+    new AppProject({ name: 'Fight game', description:'some short description', stack: 'Vanilla JS', image:'fight.png', githubLink: 'https://github.com/jorgezerpa/street-fighter-clone', projectLink: 'https://jorgezerpa.github.io/street-fighter-clone/'  }), 
+    new AppProject({ name: 'Shot game', description:'some short description', stack: 'Vanilla JS', image:'space.png', githubLink: 'https://github.com/jorgezerpa/basic-shoting-game', projectLink: 'https://jorgezerpa.github.io/basic-shoting-game/'  }), 
 ]
 
 

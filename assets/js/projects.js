@@ -9,7 +9,7 @@ appProjects.forEach(project => {
             <h4>${project.name}</h4>
             <p>${project.stack}</p>
             <div class="portfolio-links">
-                <a href=${project.githubLink } target='/blank' data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href=${project.githubLink } target='/blank' data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class='bx bxl-github'></i></a>
                 ${project.projectLink 
                     ?`<a href=${project.projectLink} target='/blank' data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>` 
                     :""
